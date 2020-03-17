@@ -1,21 +1,17 @@
-# VQA Demo
 
-**Updated** to work with Keras 2.0 and TF 1.2 and Spacy 2.0
-This code is meant for education thus focus is on simplicity and not speed.
 
 This is a simple Demo of Visual Question answering which uses pretrained models (see models/CNN and models/VQA) to answer a given question about the given image.
 
 ## Dependency
 
 1. Keras version 2.0+
-   * Modular deep learning library based on python
+ 
 
 2. Tensorflow 1.2+
-    (Might also work with Theano. I have not tested Theano 
-    after the recent commit, use commit 0f89007 for Theano)
+    
 
 3. scikit-learn
-   * Quintessential machine library for python
+   
 
 4. Spacy version 2.0+
     * Used to load Glove vectors (word2vec)
@@ -24,7 +20,7 @@ This is a simple Demo of Visual Question answering which uses pretrained models 
 
 5. OpenCV 
     * OpenCV is used only to resize the image and change the color channels,
-    * You may use other libraries as long as you can pass a 224x224 BGR Image (NOTE: BGR and not RGB)
+  
 
 6. VGG 16 Pretrained Weights
     * Please download the weights file [vgg16_weights.h5](https://drive.google.com/file/d/0Bz7KyqmuGsilT0J5dmRCM0ROVHc/view)
