@@ -38,9 +38,7 @@ e.g
 > python demo.py -image_file_name test.jpg -question "Is there a man in the picture?"
 
 
-if you have prefer to use Theano backend and if you have GPU you may want to run like this
 
-> THEANO_FLAGS='floatX=float32,device=gpu0,lib.cnmem=1,mode=FAST_RUN' python demo.py -image_file_name test.jpg -question "What vechile is in the picture?"
 
 
 Expected Output :
