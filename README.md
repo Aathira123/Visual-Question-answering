@@ -3,35 +3,29 @@
 This is a simple Demo of Visual Question answering which uses pretrained models (see models/CNN and models/VQA) to answer a given question about the given image.
 
 ## Dependency
-
+python3 version - 3.5
 1. Keras version 2.0+
- 
-
 2. Tensorflow 1.2+
-    
-
-3. scikit-learn
-   
-
+3. scikit-learn -0.18
 4. Spacy version 2.0+
     * Used to load Glove vectors (word2vec)
-    * To upgrade & install Glove Vectors
+    *To install Glove Vectors
        * python -m spacy download en_vectors_web_lg
-
 5. OpenCV 
-    * OpenCV is used only to resize the image and change the color channels,
-  
+    * cv2 version -4.2.0
+6. VGG 19 Pretrained Weights
+    * Weights can be downloaded online
+### How to run
 
-6. VGG 16 Pretrained Weights
-    * Please download the weights file [vgg16_weights.h5](https://drive.google.com/file/d/0Bz7KyqmuGsilT0J5dmRCM0ROVHc/view)
+> python demo.py 
+> Then click on ImageCroppingPro executable file .
+> Browse for image and type down question in textbox and click submit
+>The answer will be displayed on answer textbox.
+> Click reset to try for another image
 
-## Usage
 
-> python demo.py -image_file_name `path_to_file` -question "Question to be asked"
 
-e.g 
 
-> python demo.py -image_file_name test.jpg -question "Is there a man in the picture?"
 
 
 
