@@ -17,11 +17,11 @@ python3 version - 3.5
     * Weights can be downloaded online
 ### How to run
 
-> python demo.py 
-> Then click on ImageCroppingPro executable file .
-> Browse for image and type down question in textbox and click submit
->The answer will be displayed on answer textbox.
-> Click reset to try for another image
+-python demo.py 
+- Then click on ImageCroppingPro executable file .
+-Browse for image and type down question in textbox and click submit
+-The answer will be displayed on answer textbox.
+-Click reset to try for another image
 
 
 
