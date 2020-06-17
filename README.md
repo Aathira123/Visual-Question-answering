@@ -31,17 +31,3 @@ python3 version - 3.5
 
 
 
-Expected Output :
-095.2 %  train
-00.67 %  subway
-00.54 %  mcdonald's
-00.38 %  bus
-00.33 %  train station
-
-
-## Runtime
-
-  * GPU (Titan X) Theano optimizer=fast_run       : 51.3 seconds
-  * GPU (Titan X) Theano optimizer=fast_compile   : 47.5 seconds
-  * CPU (i7-5820K CPU @ 3.30GHz                   : 35.9 seconds (Is this strange or not ?)
-
